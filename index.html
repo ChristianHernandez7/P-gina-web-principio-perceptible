@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Paradise</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1 tabindex="1">Bienvenidos a Pet Paradise</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" tabindex="2">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products" tabindex="3">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" tabindex="4">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2 tabindex="5">Sobre Nosotros</h2>
+        <p tabindex="6">En Pet Paradise, ofrecemos una amplia gama de artículos para el bienestar y diversión de tus mascotas. Nuestro objetivo es brindar productos de alta calidad que aseguren la felicidad y salud de tus compañeros animales.</p>
+        <img src="/media/LogoEmpresa.png" class="img-fluid" alt="Imagen de la empresa" tabindex="7">
+    </section>
+
+    <section id="products" class="container my-5">
+        <h2 tabindex="8">Nuestros Productos</h2>
+        <table class="table table-striped" tabindex="9">
+            <caption>Lista de productos</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th tabindex="10" scope="col">Producto</th>
+                    <th tabindex="11" scope="col">Descripción</th>
+                    <th tabindex="12" scope="col">Precio</th>
+                    <th tabindex="13" scope="col">Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td tabindex="14">Cama para Perros 1</td>
+                    <td tabindex="15">Cama acolchada y confortable para perros de todos los tamaños.</td>
+                    <td tabindex="16">$50</td>
+                    <td tabindex="17"><img src="/media/CamaParaPerros.jpeg" class="img-fluid" alt="Cama para perros"></td>
+                </tr>
+                <tr>
+                    <td tabindex="18">Juguete para Gatos</td>
+                    <td tabindex="19">Juguete interactivo para mantener a tu gato entretenido.</td>
+                    <td tabindex="20">$15</td>
+                    <td tabindex="21"><img src="/media/JugueteParaGatos.jpg" class="img-fluid" alt="Juguete para gatos" style="width: 200px; height: 250px;"></td>
+                </tr>
+                <tr>
+                    <td tabindex="22">Correa Retráctil</td>
+                    <td tabindex="23">Correa retráctil resistente y duradera para paseos seguros.</td>
+                    <td tabindex="24">$25</td>
+                    <td tabindex="25"><img src="/media/CorreaRetractil.jpg" class="img-fluid" alt="Correa retráctil para perros" style="width: 200px; height: 250px;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="video" class="container my-5">
+        <h2 tabindex="26">Video Promocional</h2>
+        <video controls class="w-100" tabindex="27">
+            <source src="/media/PetParadisePromocional.mp4" type="video/mp4">
+            Su navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <footer id="contact" class="bg-dark text-white text-center py-3">
+        <h2 tabindex="28">Contacto</h2>
+        <p tabindex="29">Email: contacto@miemprendimiento.com</p>
+        <p tabindex="30">Teléfono: +123 456 789</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
